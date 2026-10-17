@@ -2,3 +2,5 @@
 @media(max-width:700px){.grid{grid-template-columns:1fr}.shell{padding:17px 13px 40px}.panel{padding:18px}.welcome{padding:22px}.stats{grid-template-columns:1fr}.availability{align-items:flex-start;flex-direction:column}.top{padding:2px}}
 
 .fare-minimum{display:block;margin-top:7px;line-height:1.45}
+
+.customer-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.danger{background:#b7352d;color:white;border:0;border-radius:11px;padding:10px 14px;font:inherit;font-weight:800;cursor:pointer;margin:8px 0;width:auto}.danger:hover{background:#932a24}
