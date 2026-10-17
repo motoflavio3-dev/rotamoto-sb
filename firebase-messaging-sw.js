@@ -15,6 +15,8 @@ messaging.onBackgroundMessage((payload) => {
   const data = payload.data || {};
   self.registration.showNotification(data.title || "Nova corrida disponível", {
     body: data.body || "Abra o Rota Moto para ver os detalhes.",
+    vibrate: [250, 120, 250, 120, 500],
+    silent: false,
     data: { url: data.url || self.registration.scope },
   });
 });
