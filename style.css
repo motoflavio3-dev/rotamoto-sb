@@ -5,4 +5,4 @@
 
 .customer-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.danger{background:#b7352d;color:white;border:0;border-radius:11px;padding:10px 14px;font:inherit;font-weight:800;cursor:pointer;margin:8px 0;width:auto}.danger:hover{background:#932a24}
 
-.push-panel{display:flex;align-items:center;justify-content:space-between;gap:16px}.push-panel h2{margin:0 0 6px}.push-panel p{margin:0}@media(max-width:640px){.push-panel{align-items:flex-start;flex-direction:column}.push-panel button{width:100%}}
+
