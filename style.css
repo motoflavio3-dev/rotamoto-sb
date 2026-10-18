@@ -10,3 +10,37 @@
 .availability-actions{display:flex;gap:8px;flex-wrap:wrap}.availability-actions button{white-space:nowrap}@media(max-width:640px){.availability-actions{width:100%}.availability-actions button{flex:1}}
 
 .top-actions{display:flex;align-items:center;gap:10px}.app-qr-button{width:42px;height:42px;padding:0;display:grid;place-items:center;border:1px solid #dce5dc;border-radius:12px;background:#fff;color:#126b50;cursor:pointer}.app-qr-button:hover,.app-qr-button:focus-visible{background:#edf5e9;outline:2px solid #126b50;outline-offset:2px}.app-qr-icon{width:22px;height:22px}.qr-dialog{width:min(92vw,360px);max-width:360px;padding:0;border:0;border-radius:22px;color:#15231d;box-shadow:0 20px 60px #09140d55}.qr-dialog::backdrop{background:#101d15aa}.qr-dialog-inner{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;padding:28px 24px 24px}.qr-dialog h2{margin:14px 0 6px;font-size:22px}.qr-dialog p{margin:0;color:#718077;font-size:14px}.qr-image{display:block;width:min(72vw,240px);height:auto;margin:16px auto;border:8px solid #fff;background:#fff;image-rendering:pixelated}.qr-close{position:absolute;top:10px;right:13px;border:0;background:transparent;color:#526057;font-size:28px;line-height:1;cursor:pointer}.qr-link{display:inline-block;padding:11px 18px;border-radius:11px;background:#126b50;color:#fff;text-decoration:none;font-weight:800}
+
+.theme-toggle{width:38px;height:38px;flex:0 0 38px;padding:0;display:grid;place-items:center;border:1px solid #dce5dc;border-radius:12px;background:#fff;color:#126b50;cursor:pointer}.theme-toggle svg{width:19px;height:19px}.theme-toggle:hover,.theme-toggle:focus-visible{background:#edf5e9;outline:2px solid #126b50;outline-offset:2px}.top-actions{gap:6px}.app-qr-button{width:38px;height:38px;flex:0 0 38px}
+:root[data-theme="dark"]{color-scheme:dark;color:#e6eee8;background:#101713}
+:root[data-theme="dark"] body{background:#101713;color:#e6eee8}
+:root[data-theme="dark"] .panel,:root[data-theme="dark"] .stats div,:root[data-theme="dark"] .order{background:#18231d;border-color:#34443a;color:#e6eee8;box-shadow:none}
+:root[data-theme="dark"] .welcome{background:#174b39;color:#eff8f1}
+:root[data-theme="dark"] .welcome p{color:#d0e5d7}
+:root[data-theme="dark"] .brand small{color:#aab8ae}
+:root[data-theme="dark"] .link{color:#a9e8bd}
+:root[data-theme="dark"] .tag{background:#294537;color:#d0ead8}
+:root[data-theme="dark"] .tag.warn{background:#594520;color:#ffe2a9}
+:root[data-theme="dark"] .panel input,:root[data-theme="dark"] .panel textarea,:root[data-theme="dark"] .panel select{background:#101a14;color:#edf4ef;border-color:#394b40}
+:root[data-theme="dark"] .panel input::placeholder,:root[data-theme="dark"] .panel textarea::placeholder{color:#9caca1}
+:root[data-theme="dark"] .secondary{background:#2a3a30;color:#dcece0}
+:root[data-theme="dark"] .switch button{background:#27372d;color:#c3d0c7}
+:root[data-theme="dark"] .switch .selected{background:#d7ebdd;color:#153d2c}
+:root[data-theme="dark"] .hint,:root[data-theme="dark"] .muted,:root[data-theme="dark"] .auth-foot,:root[data-theme="dark"] footer,:root[data-theme="dark"] .stats small{color:#aab8ae}
+:root[data-theme="dark"] .badge{background:#2a3a30;color:#d8e8dd}
+:root[data-theme="dark"] .badge.open{background:#493a20;color:#ffe0a0}
+:root[data-theme="dark"] .badge.accepted{background:#293957;color:#cbdcff}
+:root[data-theme="dark"] .badge.done{background:#24452e;color:#c4f0ce}
+:root[data-theme="dark"] .route{color:#d7e2da}
+:root[data-theme="dark"] .route span{color:#8bd7a6}
+:root[data-theme="dark"] .order-bottom{color:#b6c3ba}
+:root[data-theme="dark"] .empty{border-color:#3b4b40;color:#aebbb2}
+:root[data-theme="dark"] .commission{background:#1d3527}
+:root[data-theme="dark"] .commission small{color:#c0d6c6}
+:root[data-theme="dark"] .commission b{color:#9ee0b5}
+:root[data-theme="dark"] .loading{color:#9ee0b5}
+:root[data-theme="dark"] .theme-toggle,:root[data-theme="dark"] .app-qr-button{background:#1b2921;color:#e2eee6;border-color:#394b40}
+:root[data-theme="dark"] .theme-toggle:hover,:root[data-theme="dark"] .app-qr-button:hover{background:#26392d}
+:root[data-theme="dark"] .qr-dialog{background:#18231d;color:#e6eee8}
+:root[data-theme="dark"] .qr-dialog p,:root[data-theme="dark"] .qr-close{color:#b5c4b9}
+:root[data-theme="dark"] .qr-image{background:#fff;border-color:#fff}
