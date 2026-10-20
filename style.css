@@ -44,3 +44,6 @@
 :root[data-theme="dark"] .qr-dialog{background:#18231d;color:#e6eee8}
 :root[data-theme="dark"] .qr-dialog p,:root[data-theme="dark"] .qr-close{color:#b5c4b9}
 :root[data-theme="dark"] .qr-image{background:#fff;border-color:#fff}
+
+.customer-list-scroll{max-height:360px;overflow-y:scroll;overflow-x:hidden;overscroll-behavior:contain;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#126b50 #edf3ed;-webkit-overflow-scrolling:touch}.customer-list-scroll::-webkit-scrollbar{width:10px}.customer-list-scroll::-webkit-scrollbar-track{background:#edf3ed;border-radius:8px}.customer-list-scroll::-webkit-scrollbar-thumb{background:#126b50;border:2px solid #edf3ed;border-radius:8px}.customer-phone{margin:6px 0 0}.customer-list-scroll .customer-actions{justify-content:flex-end}
+:root[data-theme="dark"] .customer-list-scroll{scrollbar-color:#6ba984 #1c2c22}:root[data-theme="dark"] .customer-list-scroll::-webkit-scrollbar-track{background:#1c2c22}:root[data-theme="dark"] .customer-list-scroll::-webkit-scrollbar-thumb{background:#6ba984;border-color:#1c2c22}
