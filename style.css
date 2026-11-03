@@ -49,3 +49,11 @@
 :root[data-theme="dark"] .customer-list-scroll{scrollbar-color:#6ba984 #1c2c22}:root[data-theme="dark"] .customer-list-scroll::-webkit-scrollbar-track{background:#1c2c22}:root[data-theme="dark"] .customer-list-scroll::-webkit-scrollbar-thumb{background:#6ba984;border-color:#1c2c22}
 
 .app-brand-icon{width:44px;height:44px;display:block;flex:0 0 44px;object-fit:cover;border-radius:14px;background:#126b50}
+
+/* Aviso público configurado pela administração */
+.customer-notice{display:flex;align-items:center;gap:12px;padding:12px 16px;margin:0 0 16px;border-radius:12px;background:#dff6e7;color:#124c34;overflow:hidden}
+.customer-notice strong{flex:none}
+.notice-window{overflow:hidden;flex:1;min-width:0;white-space:nowrap}
+.notice-window span{display:inline-block;min-width:100%;padding-left:100%;animation:notice-scroll 18s linear infinite}
+@keyframes notice-scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.notice-window{white-space:normal}.notice-window span{animation:none;padding-left:0;min-width:0}}
